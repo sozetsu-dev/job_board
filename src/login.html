@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Connexion Pour Particulier</title>
+</head>
+<body>
+<div id = "connexion">
+    <form action = "./src/login.php" method="post">
+    <fieldset>Connexion</fieldset>
+    <p><label for="pseudo">Pseudo : </label><input type="text" name="pseudo" id="pseudo" /></p>
+    <p><label for="pass">Mot de passe : </label><input type="password" name="pass" id="pass" /></p>
+    <p><input type="submit" value="Envoyer" id = "valider" /></p>
+    </form>
+    <p id = "message"><?= $message?:'' ?></p>
+</div>
+</body>
+</html>

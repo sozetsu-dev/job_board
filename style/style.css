@@ -1,0 +1,148 @@
+@media screen and (max-width: 767px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 1024px) {
+	body {
+		background-color: rgb(230, 230, 230);
+	}
+
+	footer {
+		background-color: #5F9EA0;
+		src: url("Courier_Prime.ttf");
+		font-family: courier_prime, arial, sans-serif;
+		text-align: center;
+		color: white;
+		bottom: 0;
+		margin-top: 5%;
+		width: 100%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	header {
+		background-image: url("./image/batman.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #90A4AE;
+		width: 100%;
+		padding-bottom: 7.7%;
+		display: block;
+	}
+	div#primary {
+		src: url("Courier_Prime.ttf");
+		font-family: courier_prime, arial, sans-serif;
+		margin-right: 25%;
+		margin-left: 25%;
+	}
+
+	#i {
+		font-style: italic;
+	}
+
+    section {
+    	margin-top: 1%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .border {
+    	box-shadow: 1px 1px 10px black;
+		box-sizing: border-box;
+		width: 100%;
+		border: solid;
+		border-style: none;
+		padding-left: 1%;
+		padding-right: 1%;
+    }
+
+    .article1 {
+    	background-color: white;
+        width: 30%;
+        display: inline-block;
+    }
+
+    .article2 {
+		background-color: white;
+        width: 30%;
+        margin-right: 2.4%;
+        display: inline-block;
+    }
+
+    .article3 {
+		background-color: white;
+        width: 30%;
+        display: inline-block;
+    }
+
+	hr {
+	    border: none;
+	    border-top: 3px double #333;
+	    color: #333;
+	    overflow: visible;
+	    text-align: center;
+	    height: auto;
+	}
+
+	a.hover {
+		color: orange !important;
+	}
+
+	.active {
+		background-color: #90A4AE !important;
+	}
+	#more {
+		display: none;
+	}
+	/* Ajout navbar */
+
+	ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+	}
+
+	li {
+    	float: left;
+	}
+
+	li a, .dropbtn {
+    	display: inline-block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+    	background-color: red;
+	}
+
+	li.dropdown {
+    	display: inline-block;
+	}
+
+	.dropdown-content {
+    	display: none;
+    	position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	z-index: 1;
+	}
+
+	.dropdown-content a {
+    	color: black;
+	   	padding: 12px 16px;
+    	text-decoration: none;
+    	display: block;/*
+    	text-align: left;*/
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+    	display: block;
+	}
+}
